@@ -1,0 +1,114 @@
+/*Reseta a margem padrão do body, define padrão e a cor de fundo */
+body {
+    margin:  0;
+    font-family: Arial, Helvetica, sans-serif; /*Define e fonte padrão do texto*/
+    background-color: #ccc; /*Define um fundo cinza claro para toda a página*/
+
+}
+/* Estiliza a seção hero, que geralmente é a primeira seção da página*/
+.hero {
+    background-image: url(bg-3.jpg); /*Define uma imagem de fundo para a seção hero*/
+    height: 500px; /*Define a altura da seção hero*/
+    background-size: cover; /*Faz com que a imagem de fundo cubra toda a área da seção*/
+    background-position: right center; /*Posição a imagem de fundo no canto direito, centralizando verticalmente*/
+    padding-top: 1px; /*Adiciona um pequeno espaçamento no topo da seção */
+
+}
+
+/*Estiliza o conteúdo dentro da seção hero*/
+.hero-content {
+    margin: 100px auto 0; /*Define margens para centralizar horizontalmente o conteúdo e adicionar espaço no topo*/
+    width: 80%; /*Define a largura do conteúdo como 80% da largura da seção hero*/
+    text-align: center; /*Centraliza o texto dentro do conteúdo*/
+    color: white; /**/
+}
+/*Estiliza o título dentro do conteúdo da seção hero*/
+.hero-content h1 {
+    font-size: 56px; /*Define um tamanho de fonte grande para o título*/
+    text-shadow: 2px 2px 2px black; /*Adiciona uma sombra ao texto do título para destaca-lo*/
+    text-transform: uppercase; /*Transforma o texto do título para letras maiúsculas*/
+    margin-bottom: 0; /**/
+}
+
+
+/*Estiliza o parágrafo dentro do conteúdo da seção hero*/
+.hero-content p {
+    background-color:rgba(0, 0, 0, 0.7); /*Define um fundo semitransparente preto para o parágrafo*/
+    font-size: 16px; /* Adiciona espaçamento interno ao parágrafo*/
+    border-bottom: 2px solid; /* Adiciona uma borda inferior ao parágrafo*/
+
+}
+
+/*Estiliza a lista não ordenada (ul) dentro da navegação (nav) na seção hero*/
+.hero nav ul {
+    margin: 20px 80px 0 0; /*Define margens: 20px no topo, 80px à direita, e sem margem à esquerda e embaixo*/
+    text-align: right; /*Alinha o conteúdo da lista à direita*/
+}
+
+/*Estiliza os itens da lista (li) dentro da navegação (nav) na seção*/
+.hero nav li {
+    display: inline-block; /*Exibe cada item da lista como um bloco em linha, alinhando-os horizontalmente*/
+    list-style-type: none; /*Remove os marcadores padrão da lista (como pontos ounúmeros)*/
+    border: 1px solid white; /*Adiciona uma borda branca ao redor de cada item da lista*/
+    margin-left: 16px; /*Adiciona um espaço à esquerda de cada item, criando separação entre eles*/
+
+
+}
+/* Etiliza os links (a) dentro dos itens da lista na navegação (nav) na seção hero */
+.hero nav a {
+    background-color: rgba(0, 0, .3); /*Define um fundo preto semitransparente para os links*/
+    padding: 16px; /*Adiciona espaçamento interno ao redor do texto do link*/
+    display: block; /*Faz com que o link ocupe todo o espaço do item da lista, tornando-o clicável em toda a área*/
+    color: white; /*Define a cor do texto do link como branco*/
+    text-decoration: none; /*Remove p sublinhado padrão dos links*/
+    text-transform: uppercase; /*Transforma o texto do link em letras maiúculas*/
+    font-size: 12px; /* Define o tamanho da fonte dos links*/
+    letter-spacing: 2px; /*Aumenta o espaçamento entre as letras do texto do link*/
+
+}
+
+/*Estiliza o estado de hover (quando o cursor está sobre o link) dos links na navegação */
+.hero nav a:hover {
+    background-color: rgb(0, 0, 0, .5); /*Muda a cor de fundo para um preto mais escuro e semitransparente */
+
+}
+/*Estiliza a tag <main>, que geralmente contém o conteúdo principal da página*/
+main {
+    width: 90%; /*Define que a largura do <main> será 90% da largura da tela*/
+    margin: auto; /*Centraliza o <main> horizontalmente na página*/
+    max-width: 860px; /*Define uma largura máximapara o <mais>, garantindo que não fique muito largo em telas */
+
+}
+/*Estiliza os elementos <article>, que representa seções independentes do conteúdo*/
+article {
+    background-color: white; /*Define a cor de fundo do artigo como branco*/
+    padding: 16px; /*Adiciona espaçamento interno ao redor do conteúdo artigo*/
+    margin-bottom: 32px; /*Adiciona um espaçamento na parte inferior do artigo, separando-o do próximo elemento*/
+    margin-top: 32px; /*Adiciona um espaçamento na parte superior do artigo, separando-o do elemento anterior*/
+
+}
+/*Estiliza os títulos (h2) dentro dos artigos*/
+article h2 {
+    border-bottom: 2px solid #ccc; /*Adiciona uma borda inferior cinza clara ao título, criando uma linha */
+    background-color: #eee; /*Define uma cor de fundo cinza claro para o título*/
+    padding: 10px; /*Adiciona epaçamento interno ao redor do texto do título*/
+    margin-top: 0; /*Remove a margem superior padrão, alinhando o título com o topo do artigo*/
+}
+/*Estiliza elementos com a classe .btn, geralmente usados para botões*/
+.btn {
+    background-color: #cdc7c3; /*Define a cor de fundo do botão em um tom de cinza claro*/
+    display: block; /*Faz com que o botão ocupe toda a largura do seu contêiner*/
+    padding: 12px 16px; /*Adiciona espaçamento interno ao redor do texto do botão (12px em cima/baixo, 16px à direita */
+    border-radius: 6px; /*Adiciona cantos arredondados ao botão*/
+    margin-left: auto; /*Adiciona margem à esquerda para empurrar o botão para a direita dentro do contêiner*/
+    width: fit-content; /*Define a largura do botão para se ajustar ao conteúdo interno, sem ocupar toda a largura*/
+
+}
+.rodape {
+    color: white; /*Define a cor do texto como branca*/
+    background-color: #6b6c68; /*Define a cor de fundo do rodapé como um tom de cinza escuro*/
+    text-align: center; /*Centraliza o texto dentro do rodapé*/
+    padding: 30px; /*Adiciona um espaçamento interno de 30px ao redor do conteúdo do rodapé*/
+    text-shadow: 2px 2px 2px black; /*Aplica uma sombra preta ao texto, descolada 2px horizontalmente e vertical*/
+    letter-spacing: 2px; /*Aumenta o espaçamento entre as letras do texto no rodapé */
+}
