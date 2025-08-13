@@ -2,11 +2,11 @@
 
 Este projeto apresenta uma página informativa sobre cursos e conteúdos de frontend, com foco em HTML, CSS e JavaScript. A proposta é reunir informações básicas para quem deseja iniciar ou aprofundar seus conhecimentos em desenvolvimento web.
 
-## 🔗 Demonstração
+##  Demonstração
 
 Acesse o site online: [https://jakis19.github.io/cursos-frontend/](https://jakis19.github.io/cursos-frontend/)
 
-## 🧩 Estrutura do Projeto
+##  Estrutura do Projeto
 
 - `index.html`: Página principal com navegação, seções de conteúdo sobre HTML, CSS e JavaScript, e links úteis.
 - `style.css`: Arquivo de estilos para layout, cores, tipografia e responsividade.
